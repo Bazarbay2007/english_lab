@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="EnglishLab — онлайн-курс английского языка с подбором уровня и тарифа.">
+    <title>EnglishLab — английский для твоих целей</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header" id="home">
+        <nav class="navbar container" aria-label="Основная навигация">
+            <a class="logo" href="#home"><span>EL</span> EnglishLab</a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Открыть меню">☰</button>
+            <div class="nav-links" id="navLinks">
+                <a href="#about">О курсе</a>
+                <a href="#programs">Тарифы</a>
+                <a href="#test">Тест</a>
+                <a href="#contacts">Контакты</a>
+            </div>
+        </nav>
+
+        <div class="hero container">
+            <div class="hero-text">
+                <p class="eyebrow">ENGLISH • PRACTICE • PROGRESS</p>
+                <h1>Английский, который <span>работает на тебя.</span></h1>
+                <p class="hero-description">
+                    EnglishLab помогает начать с нуля, уверенно перейти на следующий уровень
+                    или подготовиться к IELTS. Выбери цель — мы подберём формат обучения.
+                </p>
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="#programs">Выбрать тариф</a>
+                    <a class="btn btn-secondary" href="#test">Пройти мини-тест</a>
+                </div>
+                <div class="hero-stats">
+                    <div><strong>3</strong><span>направления</span></div>
+                    <div><strong>8+</strong><span>тем в модуле</span></div>
+                    <div><strong>1</strong><span>понятный путь</span></div>
+                </div>
+            </div>
+
+            <div class="hero-card">
+                <div class="floating-badge">NEW</div>
+                <p class="card-label">Твой английский</p>
+                <div class="level-circle">A2</div>
+                <h3>Уверенный старт</h3>
+                <p>Говори больше, учи меньше лишнего и двигайся по понятному плану.</p>
+                <div class="progress"><span></span></div>
+                <small>Прогресс курса: 72%</small>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section about" id="about">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">WHY ENGLISHLAB</p>
+                    <h2>Не просто уроки, а система</h2>
+                    <p>Мы соединяем разговорную практику, грамматику и реальные цели ученика.</p>
+                </div>
+
+                <div class="features-grid">
+                    <article class="feature-card">
+                        <div class="icon">01</div>
+                        <h3>Понятно</h3>
+                        <p>Объясняем сложные темы простыми словами и даём практику сразу на уроке.</p>
+                    </article>
+                    <article class="feature-card">
+                        <div class="icon">02</div>
+                        <h3>Практично</h3>
+                        <p>Speaking, vocabulary и задания из реальных жизненных ситуаций.</p>
+                    </article>
+                    <article class="feature-card">
+                        <div class="icon">03</div>
+                        <h3>Под цель</h3>
+                        <p>Можно учиться для себя, университета, работы или подготовки к IELTS.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section programs" id="programs">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">PROGRAMS</p>
+                    <h2>Выбери свой маршрут</h2>
+                    <p>Нажми «Выбрать» — тариф будет сохранён для следующего шага.</p>
+                </div>
+
+                <div class="pricing-grid">
+                    <article class="price-card">
+                        <span class="tag">START</span>
+                        <h3>Basic</h3>
+                        <p class="price">29 900 ₸ <small>/ месяц</small></p>
+                        <p>Для тех, кто начинает с нуля или хочет закрыть пробелы.</p>
+                        <ul>
+                            <li>2 занятия в неделю</li>
+                            <li>Speaking practice</li>
+                            <li>Домашние задания</li>
+                        </ul>
+                        <button class="btn btn-outline plan-btn" data-plan="Basic" data-price="29 900 ₸">Выбрать</button>
+                    </article>
+
+                    <article class="price-card popular">
+                        <span class="tag">POPULAR</span>
+                        <h3>Pro</h3>
+                        <p class="price">44 900 ₸ <small>/ месяц</small></p>
+                        <p>Для уверенного роста с регулярной практикой и обратной связью.</p>
+                        <ul>
+                            <li>3 занятия в неделю</li>
+                            <li>Speaking club</li>
+                            <li>Персональная обратная связь</li>
+                        </ul>
+                        <button class="btn btn-primary plan-btn" data-plan="Pro" data-price="44 900 ₸">Выбрать</button>
+                    </article>
+
+                    <article class="price-card">
+                        <span class="tag">IELTS</span>
+                        <h3>IELTS Focus</h3>
+                        <p class="price">59 900 ₸ <small>/ месяц</small></p>
+                        <p>Для тех, кто хочет системно готовиться к международному экзамену.</p>
+                        <ul>
+                            <li>4 занятия в неделю</li>
+                            <li>Mock tests</li>
+                            <li>Разбор Writing & Speaking</li>
+                        </ul>
+                        <button class="btn btn-outline plan-btn" data-plan="IELTS Focus" data-price="59 900 ₸">Выбрать</button>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section test-section" id="test">
+            <div class="container test-layout">
+                <div>
+                    <p class="eyebrow">MINI LEVEL TEST</p>
+                    <h2>Определи примерный уровень</h2>
+                    <p>Ответь на 5 коротких вопросов. Это демонстрационная версия теста для проекта.</p>
+                    <div class="selected-plan" id="selectedPlan">Тариф пока не выбран</div>
+                </div>
+
+                <form class="test-card" id="levelTest">
+                    <div class="question">
+                        <p>1. She ___ to school every day.</p>
+                        <label><input type="radio" name="q1" value="0"> go</label>
+                        <label><input type="radio" name="q1" value="1"> goes</label>
+                        <label><input type="radio" name="q1" value="0"> going</label>
+                    </div>
+                    <div class="question">
+                        <p>2. I have lived here ___ 2022.</p>
+                        <label><input type="radio" name="q2" value="0"> for</label>
+                        <label><input type="radio" name="q2" value="1"> since</label>
+                        <label><input type="radio" name="q2" value="0"> during</label>
+                    </div>
+                    <div class="question">
+                        <p>3. If I had more time, I ___ another language.</p>
+                        <label><input type="radio" name="q3" value="1"> would learn</label>
+                        <label><input type="radio" name="q3" value="0"> learn</label>
+                        <label><input type="radio" name="q3" value="0"> will learned</label>
+                    </div>
+                    <div class="question">
+                        <p>4. Choose the closest meaning of “accurate”.</p>
+                        <label><input type="radio" name="q4" value="0"> Fast</label>
+                        <label><input type="radio" name="q4" value="1"> Correct</label>
+                        <label><input type="radio" name="q4" value="0"> Difficult</label>
+                    </div>
+                    <div class="question">
+                        <p>5. By next year, she ___ her course.</p>
+                        <label><input type="radio" name="q5" value="1"> will have finished</label>
+                        <label><input type="radio" name="q5" value="0"> finished</label>
+                        <label><input type="radio" name="q5" value="0"> finishes</label>
+                    </div>
+
+                    <button class="btn btn-primary full" type="submit">Узнать результат</button>
+                    <div class="result" id="result" aria-live="polite"></div>
+                </form>
+            </div>
+        </section>
+
+        <section class="section signup" id="signup">
+            <div class="container signup-card">
+                <div>
+                    <p class="eyebrow">NEXT STEP</p>
+                    <h2>Готов начать?</h2>
+                    <p>Оставь имя и e-mail — это демонстрационная форма проекта.</p>
+                </div>
+                <form id="signupForm" class="signup-form">
+                    <input id="nameInput" type="text" placeholder="Ваше имя" required>
+                    <input id="emailInput" type="email" placeholder="E-mail" required>
+                    <button class="btn btn-primary" type="submit">Отправить заявку</button>
+                </form>
+                <p class="form-message" id="formMessage" aria-live="polite"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer" id="contacts">
+        <div class="container footer-grid">
+            <div>
+                <a class="logo footer-logo" href="#home"><span>EL</span> EnglishLab</a>
+                <p>Учимся говорить. Учимся думать. Учимся для своей цели.</p>
+            </div>
+            <div>
+                <h3>Контакты</h3>
+                <p>WhatsApp: +7 700 123 45 67</p>
+                <p>Email: hello@englishlab.example</p>
+            </div>
+            <div>
+                <h3>Оплата</h3>
+                <p>Kaspi / перевод — после подтверждения заявки.</p>
+                <p class="demo-note">Данные указаны как демонстрационные.</p>
+            </div>
+        </div>
+        <div class="copyright">© 2026 EnglishLab. Учебный проект.</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
